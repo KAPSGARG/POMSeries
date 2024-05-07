@@ -20,6 +20,7 @@ public class SearchResultsPage {
 		this.eleUtil = new ElementUtil(driver);
 	}
 
+	// 3. Public Page Actions/Methods
 	public int getSearchProductCount() {
 		return eleUtil.waitForElementsVisible(searchProducts, 10).size();
 	}
