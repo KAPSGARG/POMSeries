@@ -4,10 +4,10 @@
 <suite name="Open Cart Regression Suite" verbose="3" thread-count="5"
 	parallel="tests">
 
-	<!--<listeners>
+	<listeners>
 		<listener
 			class-name="com.qa.opencart.listeners.ExtentReportListener" />
-	</listeners>-->
+	</listeners>
 
 	<test name="Login Page Test Chrome">
 		<parameter name="browser" value="chrome" />
